@@ -1,1 +1,0 @@
-gcc main.c -o main /home/ivar/why/run/build/librun.a -lstdc++ -ljsoncpp -lglog -lsqlite3

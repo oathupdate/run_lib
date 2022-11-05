@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
         int64_t end = start + Time::KOneDay;
         ws = DIC.FindByRange(start, end);
     } else if (op == "i") {
-        DIC.ImportFromEudic("/home/ivar/word.csv");
+        DIC.ImportFromEudic("/home/root/word.csv");
     } else {
         ws = DIC.FindByRange(0, Time::Now());
     }
